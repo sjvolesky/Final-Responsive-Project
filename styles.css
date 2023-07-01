@@ -11,7 +11,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -96,7 +95,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 .primary-link:hover {
-  color: blue;
+  color: white;
 }
 .row {
   display: flex;
@@ -107,7 +106,18 @@ p {
     font-size: 48px;
     line-height: 1.5;
   }
+
+  p {
+    text-align: center;
+  }
+
   h2 {
     text-align: center;
+  }
+
+  .project-launch {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
